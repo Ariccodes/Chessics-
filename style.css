@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://e1.pxfuel.com/desktop-wallpaper/962/811/desktop-wallpaper-carlsen-signs-sponsorship-deal-with-unibet-magnus-carlsen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar ul li:active{
+    background: #0e3b37;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+button:active{
+    background: #0e3b37;
+
+}
+.footer{
+    border-top: 2px solid mediumaquamarine;
+    text-align: center;
+    height: 65vh;
+    background-color: #101817;
+       
+}
+.div1{
+background-color: #314948;
+height: 8vh;
+
+}
+.div2{
+    background-color: #20312F;
+    height: 8vh;
+    display: grid;
+place-items: center;
+
+}
+.div3{
+    height: 35vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://static.vecteezy.com/system/resources/thumbnails/002/106/276/small/geometric-black-and-gold-background-free-vector.jpg);
+    background-size:contain;
+    z-index: 1;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+#top{
+    text-decoration:none;
+    color:aliceblue;
+    font-weight: bold;
+  
+}
+.div4{
+    background-color: #101817;
+    height: 9vh;
+    text-align: center;
+    color: aliceblue;
+    font-weight: initial;
+    padding: 20px;
+}
+.row1{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+    padding: 20px;
+    text-align: left;
+}
+.row2{
+    display: inline-block;
+    margin-left: 23px;
+    margin-right: 38px;
+    margin-top: 7px;
+    text-align: left;
+}
+.row3{
+    display: inline-block;
+    margin-left: 45px;
+    margin-right:30px;
+    margin-top: 7px;
+    text-align:left ;
+}
+.row4{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 7px;
+    text-align: left;
+}
+.row5{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 7px;
+    text-align: left;
+
+}
+#youtube{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    color:#fff;
+
+}

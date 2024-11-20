@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://previews.123rf.com/images/supitchamcadam/supitchamcadam1704/supitchamcadam170401740/76666603-stone-tiles-floor-background-wallpaper.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.header{
+    text-align: center;
+    background-color:slategrey;
+    background-size: contain;
+    background-position: center;
+    color:beige;
+  height: 10vh;
+  display: grid;
+  place-items: center;
+}
+.navbar{
+    height: 8vh;
+    background-color: rgb(61, 90, 108);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    align-content: center;
+    text-align: center;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar ul li:active{
+    background: #0e3b37;
+}
+#index{
+margin-left: 500px;
+}
+#learn{
+margin-left:40px ;
+}
+#play{
+margin-left:40px ;
+}
+img{
+    width: 250px;
+    padding-top: 20px;
+}
+h2{
+    text-align: left;
+}
+#magnus{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    color: bisque;
+}
+#magnusword{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+     font-family:cursive;
+       width: 800px;
+       height: 250px;
+       position: static;
+}
+#hikaru{
+    margin-left: 40px;
+    display: inline-block;
+    color: bisque;
+}
+#hikaruword{
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+     font-family:cursive;
+       width: 800px;
+       height: 250px;
+       position: static;
+}
+.logo{
+  
+    cursor: pointer;
+    border-radius: 50%;
+}
+.logoposition{
+    display: grid;
+    place-items: center;
+}
+.description{
+    text-align: center;
+    width: 70%;
+    color: bisque;
+    display: grid;
+    place-content: center;
+    margin-left: 180px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+button:active{
+    background: #0e3b37;
+
+}
+.feedback{
+    display: grid;
+    place-items: center;
+}
